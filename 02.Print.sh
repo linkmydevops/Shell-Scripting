@@ -45,4 +45,5 @@ echo Hello in no color
 
 #FOR BACKGROUND COLOR
 
-echo -e '\e[42;36mHello\e[0m'
+echo -e '\e[42;31mHello\e[0m'
+
