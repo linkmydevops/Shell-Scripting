@@ -21,7 +21,7 @@ double quotes "" is also mandatory
 printmultiplelines
 
 
-echo  -e "Hello,\n\nThis is linkmydevops\Bye"
+echo  -e "Hello,\n\nThis is linkmydevops\nBye"
 
 
 
