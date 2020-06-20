@@ -1,5 +1,12 @@
 #!/bin/bash
 
+<<EOR
+Git ignore permission changes
+
+$ git config core.fileMod false
+
+EOR
+
 echo this is how to print
 
 #How to print multiple lines
