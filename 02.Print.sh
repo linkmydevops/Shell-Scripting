@@ -24,5 +24,17 @@ printmultiplelines
 
 echo  -e "Hello,\n\tThis is linkmydevops\n\tBye"
 
+#color codes
+#syntax: echo -e "\e[color codeminput-message"
+#COLOR CODES  FOREGROUND    BACKGROUND
+#RED           31               41
+#GREEN         32               42
+#YELLOW        33               43
+#BLUE          34               44
+#MAGENTA       35               45
+#CYAN          36               46
+
+echo -e "\e[31mHello in red color"
+
 
 
