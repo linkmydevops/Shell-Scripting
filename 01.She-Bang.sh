@@ -7,3 +7,14 @@
 # She-Bang Donates the script is shell script
 
 echo hello world
+
+<<EOR
+This is a multi line comment
+Line1
+Line2
+Line3
+.
+.
+LineN
+EOR
+
