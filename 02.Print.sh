@@ -10,5 +10,5 @@ echo -e "line1/nline2"
 
 syntax
 
-echo -e "Hello/nThis is linkmydevops account"
+echo -e "Hello/nThis is linkmydevops"
 
