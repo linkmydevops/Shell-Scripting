@@ -43,3 +43,6 @@ echo -e "\e[34mHello in blue color\e[0m"
 
 echo Hello in no color
 
+#FOR BACKGROUND COLOR
+
+echo -e '\e[42;36mHello\e[0m'
