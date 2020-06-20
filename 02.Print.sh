@@ -17,11 +17,12 @@ echo -e "line1\nline2"
 -e flag is mandatory to print new  lines
 double quotes "" is also mandatory
 \n is also mandatory - note the backward slash
+\t is for tab space
 
 printmultiplelines
 
 
-echo  -e "Hello,\n\nThis is linkmydevops\nBye"
+echo  -e "Hello,\n\n\tThis is linkmydevops\n\tBye"
 
 
 
