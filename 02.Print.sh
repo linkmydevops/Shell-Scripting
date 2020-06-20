@@ -36,10 +36,10 @@ echo  -e "Hello,\n\tThis is linkmydevops\n\tBye"
 
 echo -e "\e[31mHello in red color"
 
-echo -e "\e[34mHello in blue color"
+echo -e "\e[34mHello in blue color\e[0m"
 
 #once a color is enabled, the color stays consistent
 #   \e[0m  used to disable color in next line
 
-echo "Hello in no color\e[0m"
+echo Hello in no color
 
