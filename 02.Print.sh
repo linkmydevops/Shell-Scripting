@@ -38,5 +38,8 @@ echo -e "\e[31mHello in red color"
 
 echo -e "\e[34mHello in blue color"
 
+#once a color is enabled, the color stays consistent
+#   \e[0m  used to disable color in next line
 
+echo -e "Hello in no color\e[0m"
 
