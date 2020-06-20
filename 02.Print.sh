@@ -36,5 +36,7 @@ echo  -e "Hello,\n\tThis is linkmydevops\n\tBye"
 
 echo -e "\e[31mHello in red color"
 
+echo -e "\e[34mHello in blue color"
+
 
 
