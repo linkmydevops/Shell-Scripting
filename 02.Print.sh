@@ -13,5 +13,5 @@ double quotes "" is also mandatory
 
 syntax
 
-echo -e "Hello\nThis is linkmydevops"
+echo  -e "Hello\nThis is linkmydevops"
 
