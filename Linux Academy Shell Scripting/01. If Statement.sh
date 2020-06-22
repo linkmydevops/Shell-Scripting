@@ -60,3 +60,4 @@ if [ -f $FILENAME ] && [ -r $FILENAME ]
   then
     echo "File $FILENAME exist and readable"
 fi
+# For &&, both statement must be true, for OR only one needs to be true
