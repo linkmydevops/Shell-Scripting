@@ -6,5 +6,5 @@
 
 ## During execution
 
-read -p "enter your name: name"
+read -p "enter your name: " name
 echo name=$name
