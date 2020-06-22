@@ -6,8 +6,8 @@
 
 ## During execution
 
-read -p "enter your name: " name
-echo name=$name
+#read -p "enter your name: " name
+#echo name=$name
 
 #read command is not widely used in automation
 #because you need to enter an input to continue
