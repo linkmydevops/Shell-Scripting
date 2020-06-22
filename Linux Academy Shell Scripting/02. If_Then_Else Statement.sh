@@ -19,6 +19,7 @@ fi
 
 echo "Enter of number from 1 to 3:"
 read VALUE
+
 if ["$VALUE" -eq 1 ] 2>/dev/null; then
   echo "You entered #1"
 elif ["$VALUE" -eq 2 ] 2>/dev/null/; then
@@ -26,4 +27,5 @@ elif ["$VALUE" -eq 2 ] 2>/dev/null/; then
 elif [ "$VALUE" -eq 3 ] 2>/dull/null; then
   echo "You entered #3"
 else
-  echo "You did not follow instructions"
+  echo "You did not follow the instruction"
+fi
