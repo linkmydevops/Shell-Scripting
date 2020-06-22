@@ -33,5 +33,6 @@ echo -e "We offer Shell Scripting as part of ${COURSE} training"
 ## Command Substitution - VAR={command}
 ## Arithmetic Substitution - VAR={{arithmetic expression}}
 
-DATE=$date
-echo Today's date is ${DATE}
+DATE1=$(date)
+echo "Today date is ${DATE1}"
+
