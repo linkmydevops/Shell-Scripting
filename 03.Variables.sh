@@ -43,3 +43,10 @@ echo "Today date is ${DATE1}"
 STATUS=$(systemctl status sshd | grep Active | awk '{print $2}')
 echo "Status of SSHD is ${STATUS}"
 
+# Variable names should contain only , a-z, A-Z, 0-9, _ (underscore)
+# No special values are allowed.
+# Variable should not start with number.
+
+# eg A-1=10 is not acceptable, A_1=10 is acceptable
+# 1a=10 is not acceptable, a1=10 is acceptable
+
