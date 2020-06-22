@@ -36,3 +36,6 @@ echo -e "We offer Shell Scripting as part of ${COURSE} training"
 DATE1=$(date)
 echo "Today date is ${DATE1}"
 
+DATE1=$(date +%F)
+echo "Today date is ${DATE1}"
+
