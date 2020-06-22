@@ -4,6 +4,8 @@
 #capture the number using the "read" statement as the variable value
 # read command helps read the valve entered on the command line
 
+#SIMPLE EXAMPLE OF IF THEN ELSE AND NESTED IF STATEMENT
+
 echo "Enter a number from 1 to 3:"
 read VALUE
 if [ "$VALUE" -eq 1 ] 2>/dev/null || [ "$VALUE" -eq 2 ] 2>/dev/null || [ "$VALUE" -eq 3 ] 2>/dev/null; then
