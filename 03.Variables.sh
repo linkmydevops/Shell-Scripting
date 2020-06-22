@@ -35,5 +35,3 @@ echo -e "We offer Shell Scripting as part of ${COURSE} training"
 
 DATE=$date
 echo Today's date is $DATE
-
-
