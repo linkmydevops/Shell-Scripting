@@ -38,4 +38,8 @@ echo "Today date is ${DATE1}"
 
 DATE1=$(date +%F)
 echo "Today date is ${DATE1}"
+#   +%F gives only date without time zones etc
+
+STATUS=$(systemctl status sshd | grep Active | awk '{print $2}')
+echo "Status of ${STATUS}"
 
