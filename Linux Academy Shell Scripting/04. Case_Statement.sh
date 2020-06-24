@@ -17,6 +17,8 @@ echo ""
 echo "Enter Choice"
 read MENUCHOICE
 
+# MENUCHOICE is a count variable, people usually use x,y,z or i etc
+
 case $MENUCHOICE in
    1)
      echo "First Choice Chosen"
