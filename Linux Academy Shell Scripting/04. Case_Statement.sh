@@ -18,12 +18,10 @@ echo "Enter Choice"
 read MENUCHOICE
 
 case $MENUCHOICE in
-  1)
-   echo "You chose Choice One"
-  2)
-   echo "You chose Choice Two"
-  3)
-   echo "You chose Choice Three"
-  *)
-   echo "You did not follow instructions"
+   1)
+     echo "First Choice Chosen"
+   2)
+     echo "Second Choice Chosen"
+   3)
+     echo "Last Choice Made"
 esac
