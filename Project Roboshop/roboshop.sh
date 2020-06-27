@@ -11,3 +11,5 @@ N="\e[0m"
 #Remember \e[0m is needed every time to go back to neutral color
 
 echo -e "[${Y}WARNING${B}] WARNING"
+
+echo -e "\e[34mWARMING"
