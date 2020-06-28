@@ -13,3 +13,5 @@ N="\e[0m"
 echo -e "[${Y}WARNING${B}] WARNING"
 
 echo -e "\e[34mWARMING"
+
+#echo
