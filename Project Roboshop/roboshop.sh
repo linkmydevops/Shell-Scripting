@@ -17,3 +17,5 @@ echo -e "\e[34mWARMING"
 echo -e "[${B}INFO${N}] MESSAGE"
 echo -e "[${Y}WARNING${N}] MESSAGE"
 echo -e "[${R}ERROR${N}] MESSAGE"
+
+#e
