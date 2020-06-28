@@ -18,7 +18,12 @@ comment
 
 f() {
   echo "This is a function"
+  a=100
+  echo a=$a
+  echo "Calling function from outside the function boundary"
+  echo b=$b
 }
+b=200
 
 f
 
