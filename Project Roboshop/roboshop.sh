@@ -14,3 +14,5 @@ echo -e "[${B}INF${N}] MESSAGE"
 echo -e "[${Y}WAR${N}] MESSAGE"
 echo -e "[${R}ERR${N}] MESSAGE"
 
+echo -e "${B}[INF]${N} SETUP MONGODB"
+
