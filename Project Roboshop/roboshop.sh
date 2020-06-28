@@ -10,7 +10,6 @@ N="\e[0m"
 #Note, 1 is for bold feature
 #Remember \e[0m is needed every time to go back to neutral color
 
-
 echo -e "[${B}INF${N}] MESSAGE"
 echo -e "[${Y}WAR${N}] MESSAGE"
 echo -e "[${R}ERR${N}] MESSAGE"
