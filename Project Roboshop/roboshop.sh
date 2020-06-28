@@ -14,8 +14,12 @@ echo -e "[${B}INF${N}] MESSAGE"
 echo -e "[${Y}WAR${N}] MESSAGE"
 echo -e "[${R}ERR${N}] MESSAGE"
 
-echo -e "${B}[INF]${N} SETUP MONGODB"
-echo -e "${B}[INF]${N} SETUP MYSQL"
-echo -e "${B}[INF]${N} SETUP REDIS"
-echo -e "${B}[INF]${N} SETUP PAYMENT"
+PRINT () {
+ echo -e "${B}[INF]${N} $1
+}
+
+PRINT - SETUP MONGODB"
+PRINT - SETUP MYSQL"
+PRINT - SETUP REDIS"
+PRINT - SETUP PAYMENT"
 
