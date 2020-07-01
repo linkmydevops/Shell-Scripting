@@ -20,3 +20,7 @@ if [[  -z "${COMPONENT}"  ]]; then
       ;;
   esac
 fi
+
+for component in ${INSTALL_COMPONENT} ; do
+  PRINT "SETUP ${component}"
+done
