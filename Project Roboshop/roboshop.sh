@@ -40,5 +40,5 @@ if [[  -z "${COMPONENT}"  ]]; then
 fi
 
 for component in ${INSTALL_COMPONENT} ; do
-  PRINT "SETUP $(component)"
+  PRINT "SETUP ${component}"
 done
