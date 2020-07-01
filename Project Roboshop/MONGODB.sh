@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Setting up MONGODB"
+echo "SETTING UP MOMGODB"
