@@ -2,6 +2,9 @@
 
 # COLOR CODES
 
+dirname $0
+exit
+
 B="\e[1;34m"
 Y="\e[1;33m"
 R="\e[1;31m"
