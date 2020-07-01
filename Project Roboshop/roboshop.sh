@@ -10,9 +10,11 @@ N="\e[0m"
 #Note, 1 is for bold feature
 #Remember \e[0m is needed every time to go back to neutral color
 
+<<EOR
 echo -e "[${B}INF${N}] MESSAGE"
 echo -e "[${Y}WAR${N}] MESSAGE"
 echo -e "[${R}ERR${N}] MESSAGE"
+EOR
 
 PRINT () {
  echo -e "${B}"[INF]"${N}" $1
