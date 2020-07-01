@@ -35,7 +35,6 @@ if [[  -z "${COMPONENT}"  ]]; then
       ;;
      *)
       ERROR "INPUT NOT FOUND, PLS TRY AGAIN"
-      exit 1
   esac
 fi
 
